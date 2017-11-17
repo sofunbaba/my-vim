@@ -1,2 +1,2 @@
 # my-vim
-my own vim and tmux configure for server
+my vim and tmux configure for server
