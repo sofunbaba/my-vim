@@ -1,0 +1,9 @@
+" set tags=/home/licg/builds/libevent-2.1.8-stable/tags
+" set tags+=/home/licg/github/ev_server/tags
+" set tags+=/home/licg/builds/ncurses-6.0/tags
+set tags+=/home/licg/builds/glib-master/tags
+" set tags+=/home/licg/github/serverd/tags
+set tags+=/home/licg/builds/jansson-2.10/tags
+" set tags+=/home/licg/builds/arm/curl-7.59.0/tags
+set tags+=/home/licg/xilinux/src/gminer/tags
+

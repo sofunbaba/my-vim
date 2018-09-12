@@ -81,7 +81,7 @@ set tm=500
 
 
 " show location
-set cursorcolumn
+" set cursorcolumn
 set cursorline
 
 
@@ -90,7 +90,7 @@ set scrolloff=9                 " keep 3 lines when scrolling
 
 
 " show
-set ruler                       " show the current row and column
+" set ruler                       " show the current row and column
 set number                      " show line numbers
 set nowrap
 set showcmd                     " display incomplete commands
@@ -226,7 +226,7 @@ function! AutoSetFileHead()
     normal o
 endfunc
 
-autocmd FileType c,cpp,java,go,php,javascript,puppet,python,rust,twig,xml,yml,perl autocmd BufWritePre <buffer> :call <SID>StripTrailingWhitespaces()
+" autocmd FileType c,cpp,java,go,php,javascript,puppet,python,rust,twig,xml,yml,perl autocmd BufWritePre <buffer> :call <SID>StripTrailingWhitespaces()
 fun! <SID>StripTrailingWhitespaces()
     let l = line(".")
     let c = col(".")
