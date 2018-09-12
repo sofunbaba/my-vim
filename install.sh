@@ -2,6 +2,7 @@
 
 # refer  spf13-vim bootstrap.sh`
 CURRENT_DIR=`pwd`
+FOR_VIM=true
 
 echo "Step1: backing up current vim config"
 today=`date +%Y%m%d`
