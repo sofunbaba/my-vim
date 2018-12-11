@@ -246,10 +246,17 @@ map <Right> <Nop>
 map <Up> <Nop>
 map <Down> <Nop>
 
+"F12 刷新ctags
+nnoremap <F12> :!ctags -R --c++-kinds=+p --fields=+iaS --extra=+q .<CR> 
+
+"ctrl+] remap to g+] to show func list
+nnoremap <C-]> g]
+
 nnoremap k gk
 nnoremap gk k
 nnoremap j gj
 nnoremap gj j
+
 
 map <C-j> <C-W>j
 map <C-k> <C-W>k
